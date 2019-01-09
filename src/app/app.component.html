@@ -1,21 +1,71 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<footer class="page-footer" style="background-color:black">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text"><img src="assets/images/logo.png" alt="Logo" class="stylelogo"></h5>
+       
+        </div>
+        <div class="col l4 offset-l2 s12">
+         
+          <ul>
+              <a class='dropdown-trigger btn'  style=" background-color:black" href='#' data-target='dropdown1'>About Us</a>
 
-<router-outlet></router-outlet>
+              <!-- Dropdown Structure -->
+              <ul id='dropdown1' class='dropdown-content'>
+                <li><a href="#!">one</a></li>
+                <li><a href="#!">two</a></li>
+               
+              </ul>
+              <a class='dropdown-trigger btn'  style=" background-color:black" href='#' data-target='dropdown1'>Services</a>
+       
+              <!-- Dropdown Structure -->
+              <ul id='dropdown1' class='dropdown-content'>
+                <li><a href="#!">one</a></li>
+                <li><a href="#!">two</a></li>
+               
+              </ul>
+             
+              <a class='dropdown-trigger btn'  style=" background-color:black" href='#' data-target='dropdown1'>Contact</a>
+       <!-- Dropdown Structure -->
+       <ul id='dropdown1' class='dropdown-content'>
+          <li><a href="#!">one</a></li>
+          <li><a href="#!">two</a></li>
+          <li class="divider" tabindex="-1"></li>
+          <li><a href="#!">three</a></li>
+          <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+          <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+             
+          </ul>
+          <a class='dropdown-trigger btn'  style=" background-color:black" href='#' data-target='dropdown1'>Who are we</a>
+          <!-- Dropdown Structure -->
+          <ul id='dropdown1' class='dropdown-content'>
+             <li><a href="#!">one</a></li>
+             <li><a href="#!">two</a></li>
+             <li class="divider" tabindex="-1"></li>
+             <li><a href="#!">three</a></li>
+             <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+             <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+                
+             </ul>
+             <a class='dropdown-trigger btn'  style=" background-color:black" href='#' data-target='dropdown1'>What we do</a>
+             <!-- Dropdown Structure -->
+             <ul id='dropdown1' class='dropdown-content'>
+                <li><a href="#!">one</a></li>
+                <li><a href="#!">two</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="#!">three</a></li>
+                <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+                <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+                   
+                </ul>
+             </ul>
+        </div>
+      </div>
+    </div>
+   
+  
+   
+            
+  </footer>
+   <app-home></app-home>
+  <router-outlet></router-outlet>

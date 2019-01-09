@@ -5,16 +5,26 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MaterialModule } from './material/material.module';
 import {FlexLayoutModule} from '@angular/flex-layout';
+import { FooterComponent } from './Model/footer/footer.component';
+import { CarouselComponent } from './Model/carousel/carousel.component';
+import { HomeComponent } from './Model/home/home.component';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FooterComponent,
+    CarouselComponent,
+    HomeComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
