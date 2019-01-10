@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import  * as M from  'src/assets/materialize/js/materialize.min.js';
+import  * as M from  '../../../assets/materialize/js/materialize.min.js';
 @Component({
   selector: 'app-carousel',
   templateUrl: './carousel.component.html',

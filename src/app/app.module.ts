@@ -8,6 +8,11 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import { FooterComponent } from './Model/footer/footer.component';
 import { CarouselComponent } from './Model/carousel/carousel.component';
 import { HomeComponent } from './Model/home/home.component';
+import { AboutUsComponent } from './Model/About/about-us/about-us.component';
+import { OurExecutivesComponent } from './Model/About/our-executives/our-executives.component';
+
+
+
 
 
 @NgModule({
@@ -16,6 +21,10 @@ import { HomeComponent } from './Model/home/home.component';
     FooterComponent,
     CarouselComponent,
     HomeComponent,
+    AboutUsComponent,
+    OurExecutivesComponent,
+   
+    
 
   ],
   imports: [
