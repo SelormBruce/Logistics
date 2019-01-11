@@ -12,8 +12,10 @@ import { AboutUsComponent } from './Model/About/about-us/about-us.component';
 import { OurExecutivesComponent } from './Model/About/our-executives/our-executives.component';
 import { ServicesComponent } from './Model/services/services.component';
 import { AngularFireModule } from '@angular/fire';
-import { environment } from 'src/environments/environment.prod';
+
 import { ContactComponent } from './Model/contact/contact.component';
+import { environment } from 'src/environments/environment.prod';
+import { AdvertComponent } from './Model/advert/advert.component';
 
 
 
@@ -27,6 +29,7 @@ import { ContactComponent } from './Model/contact/contact.component';
     OurExecutivesComponent,
     ServicesComponent,
     ContactComponent,
+    AdvertComponent,
    
     
 
@@ -38,7 +41,6 @@ import { ContactComponent } from './Model/contact/contact.component';
     MaterialModule,
     FlexLayoutModule,
     AngularFireModule.initializeApp(environment.config)
-   
   ],
   providers: [],
   bootstrap: [AppComponent]

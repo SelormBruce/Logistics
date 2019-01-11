@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "fradal",
+    "public": "dist/Logistics",
     "ignore": [
       "firebase.json",
       "**/.*",

@@ -1,1 +1,6 @@
-{}
+{
+  "projects": {
+    "hosting": "fradal-c2170",
+    "default": "fradal-c2170"
+  }
+}

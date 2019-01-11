@@ -11,7 +11,8 @@ export const environment = {
     projectId: "fradal-c2170",
     storageBucket: "fradal-c2170.appspot.com",
     messagingSenderId: "681788386754"
-  },
+  }
+
 };
 
 /*
