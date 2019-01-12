@@ -1,0 +1,26 @@
+
+<mat-card>
+  <form fxLayoutAlign="center center" #login="ngForm"  (ngSubmit)="loginasAdmin(login)" fxLayout="column">
+ 
+     <div>
+      <input type="text"  placeholder="Username" ngModel  name="username" required #usernameinput="ngModel">
+     </div>
+
+  
+
+
+  
+    <input type="password"  placeholder="Password" ngModel  name="password"  required #passwordinput="ngModel">
+  
+
+
+
+<div fxLayoutAlign="center">
+    <button type="submit" mat-raised-button color="primary" [disabled]="login.invalid">Login</button>
+</div>
+
+
+
+</form>
+
+</mat-card>
