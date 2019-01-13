@@ -6,7 +6,7 @@ import {FormGroup,FormControl, Validators} from '@angular/forms';
 export class AdvertsService {
 
   constructor() { }
-  form: FormGroup = new FormControl(
+    form = new FormControl(
     {
       $key: new FormControl(null),
       Tile : new FormControl(Validators.required),
