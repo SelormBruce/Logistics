@@ -11,7 +11,7 @@ export class NewsListComponent implements OnInit {
 
   constructor( public service:NewsService) { }
   listData:MatTableDataSource<any>;
-  displayedColumns: string [] =['ImageUrl', 'Body','Website'];
+  displayedColumns: string [] =['ImageUrl', 'Body'];
     ngOnInit() {
       this.service.getPost().subscribe(
    list=>{

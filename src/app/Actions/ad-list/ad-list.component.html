@@ -5,19 +5,32 @@
   
     <!-- Position Column -->
     <div class="col s12 m6">  <ng-container matColumnDef="Body">
-        <th mat-header-cell *matHeaderCellDef> about ad</th>
+        <th mat-header-cell *matHeaderCellDef> about Ad</th>
         <td mat-cell *matCellDef="let element">
-          <mat-form-field>
-              <textarea matInput disabled> {{element.Body}}</textarea>
-          </mat-form-field>
-     
-          </td>
+          <div  class="col s12 m6">
+              <mat-expansion-panel>
+                  <mat-expansion-panel-header>
+                   latest news
+  
+                  </mat-expansion-panel-header>
+  
+                  <p>
+                    
+                     {{element.Body}}
+                 
+                  </p>
+                <div>
+                  
+                </div>
+                </mat-expansion-panel>
+          </div>
+            </td>
       </ng-container></div>
     <div class="col s12 m6">  <ng-container matColumnDef="ImageUrl">
         <th mat-header-cell *matHeaderCellDef> Image </th>
         <td mat-cell *matCellDef="let element">
           <div>
-            <img src="{{element.ImageUrl}}" alt="photo" style="width:150px; height:100px;">
+            <img src="{{element.ImageUrl}}" alt="photo" style="width:90px; height:100px; border-radius: 100px;">
           </div>
          
           </td>

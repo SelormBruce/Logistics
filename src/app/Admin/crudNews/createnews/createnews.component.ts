@@ -27,7 +27,7 @@ export class CreatenewsComponent implements OnInit {
 
 
   HandleFileInput(file: FileList) {
-    this.FileToUpload = document.getElementById("file-id").file[0].name;
+  
 
     var reader = new FileReader();
     reader.onload = (event: any) => {
