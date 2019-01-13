@@ -1,0 +1,71 @@
+<section>
+  <form>
+    <div class="col s12">
+ 
+<div><mat-label>Title</mat-label></div>
+<div> <input type="text"></div>
+    </div>
+   <div fxLayoutGap="20px">
+    <div  class="col s12">
+      <img [src]="ImageUrl"style="width:200px; height:200px;">
+       </div>
+       <div  class="col s12">
+         <input type="file"  Image accept="image/*" (change)="HandleFileInput($event.target.files)">
+       </div>
+       <div align="end">
+         <div> <button type="submit" mat-raised-button color="primary">Save Image</button></div>
+       </div>
+   </div>
+    
+ 
+    <div class="col s12">
+<div> <mat-label>body</mat-label></div>
+<div> 
+  <mat-form-field class="example-full-width">
+    <textarea matInput></textarea>
+  </mat-form-field>
+</div>
+    </div>
+   
+    <div class="col s12">
+      <div>
+        <div> <mat-label>Telephone:</mat-label></div>
+      </div>
+      <div>
+        <div>
+          <input type="text">
+        </div>
+      </div>
+    </div>
+    <div class="col s12">
+      <div>
+        <div> <mat-label>Email:</mat-label></div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <input type="text">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col s12">
+      <div>
+        <div> <mat-label>Website:</mat-label></div>
+      </div>
+      <div>
+        <div>
+          <div>
+            <input type="text">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12">
+<button mat-raised-button>Create</button>
+    </div>
+    
+
+  </form>
+</section>

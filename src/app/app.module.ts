@@ -27,7 +27,9 @@ import { AdvertPanelComponent } from './Admin/advert-panel/advert-panel.componen
 import { NewsPanelComponent } from './Admin/news-panel/news-panel.component';
 import { PanelComponent } from './Admin/panel/panel.component';
 import { RedirectComponent } from './Admin/redirect/redirect.component';
-
+import { CreateComponent } from './Admin/crud/create/create.component';
+import { AngularFireStorageModule } from '@angular/fire/storage';
+import { AngularFireDatabaseModule } from '@angular/fire/database';
 
 
 
@@ -53,6 +55,7 @@ import { RedirectComponent } from './Admin/redirect/redirect.component';
     NewsPanelComponent,
     PanelComponent,
     RedirectComponent,
+    CreateComponent,
  
    
    
@@ -66,7 +69,9 @@ import { RedirectComponent } from './Admin/redirect/redirect.component';
     BrowserAnimationsModule,
     MaterialModule,
     FlexLayoutModule,
-    AngularFireModule.initializeApp(environment.config)
+    AngularFireModule.initializeApp(environment.config),
+    AngularFireStorageModule,
+    AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
