@@ -1,23 +1,22 @@
 <section>
-  
-  <form [formGroup]="service.form" (submit)="onSubmit()">
+  <form [formGroup]="service.form1" (submit)="onSubmit()">
     <div class="col s12">
   <div><input type="hidden" formControlName="$key"></div>
-<div><mat-label> Ad Title</mat-label></div>
+<div><mat-label> News Title</mat-label></div>
 <div> <input type="text" formControlName="Title"></div>
     </div>
    <div fxLayoutGap="20px">
-    <div  class="col s12">
-    </div>
-       <div  class="col s12">
-         <input type="file" formControlName="ImageUrl" (change)="onUpload($event)">
-       </div>
-       
+   
+      <div  class="col s12">
+          <input type="file" formControlName="ImageUrl" (change)="onUpload($event)">
+        </div>
+        
+      
    </div>
     
  
     <div class="col s12">
-<div> <mat-label>Ad Body</mat-label></div>
+<div> <mat-label>Nes Body</mat-label></div>
 <div> 
   <mat-form-field class="example-full-width">
     <textarea matInput formControlName="Body"></textarea>
@@ -61,7 +60,7 @@
     </div>
 
     <div class="col s12">
-<button type="submit" mat-raised-button>Create Ad</button>
+<button type="submit" mat-raised-button>Create News</button>
     </div>
     
 
